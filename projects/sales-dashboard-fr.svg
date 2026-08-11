@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Tableau de bord d'analyse des produits</title>
+  <desc id="desc">Classement des cinq produits ayant les ventes les plus élevées et explication du filtrage interactif.</desc>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <style>
+    .sans{font-family:Arial,Helvetica,sans-serif}.serif{font-family:Georgia,'Times New Roman',serif}
+    .ink{fill:#24272c}.muted{fill:#62676f}.gold{fill:#c99122}.panel{fill:#f4f4f4}
+  </style>
+
+  <rect x="72" y="50" width="26" height="26" class="gold"/>
+  <text x="126" y="71" class="sans gold" font-size="22" font-weight="700">TABLEAU DE BORD - ANALYSE DES PRODUITS</text>
+  <text x="80" y="148" class="serif ink" font-size="47" font-weight="700">Un tableau croisé dynamique classe 48 produits</text>
+
+  <text x="525" y="220" text-anchor="middle" class="sans ink" font-size="23">5 produits ayant les ventes les plus élevées</text>
+  <line x1="269" y1="238" x2="269" y2="728" stroke="#b7bac0" stroke-width="2"/>
+  <g class="sans" font-size="20" fill="#292d33">
+    <text x="258" y="291" text-anchor="end">CrossRider 1000</text>
+    <text x="258" y="390" text-anchor="end">GravityMaster 1000</text>
+    <text x="258" y="489" text-anchor="end">SpeedMaster 1000</text>
+    <text x="258" y="588" text-anchor="end">EnduroMaster 1000</text>
+    <text x="258" y="687" text-anchor="end">Voyager 1000</text>
+  </g>
+  <g fill="#24272c">
+    <rect x="269" y="251" width="390" height="68" rx="2"/>
+    <rect x="269" y="350" width="451" height="68" rx="2"/>
+    <rect x="269" y="449" width="492" height="68" rx="2"/>
+    <rect x="269" y="548" width="524" height="68" rx="2"/>
+    <rect x="269" y="647" width="580" height="68" rx="2"/>
+  </g>
+  <g class="sans" font-size="17" fill="#fff" text-anchor="end">
+    <text x="648" y="292">35 910 $</text><text x="709" y="391">41 580 $</text>
+    <text x="750" y="490">45 360 $</text><text x="782" y="589">48 300 $</text>
+    <text x="838" y="688">53 550 $</text>
+  </g>
+
+  <rect x="972" y="192" width="558" height="546" class="panel"/>
+  <path d="M1003 228h45l-17 19v23l-11 7-11-7v-23z" fill="#24272c"/>
+  <text x="1080" y="260" class="sans ink" font-size="25" font-weight="700">Filtrage interactif</text>
+  <text x="1014" y="332" class="sans" fill="#3d4c63" font-size="20">
+    <tspan x="1014" dy="0">Le tableau croisé dynamique repose sur la table</tspan>
+    <tspan x="1014" dy="30">Sales_details et deux segments : catégorie de produit</tspan>
+    <tspan x="1014" dy="30">et année. La direction peut isoler une catégorie ou</tspan>
+    <tspan x="1014" dy="30">une année en un clic, sans modifier les formules.</tspan>
+  </text>
+  <line x1="1002" y1="462" x2="1499" y2="462" stroke="#d4d6da" stroke-width="2"/>
+  <text x="1014" y="506" class="sans muted" font-size="18">Cinq produits combinés</text>
+  <text x="1014" y="571" class="serif gold" font-size="52" font-weight="700">28,6 %</text>
+  <text x="1014" y="620" class="sans muted" font-size="18">des ventes totales du T1 pour les deux années (784 330 $)</text>
+  <text x="1014" y="686" class="sans muted" font-size="17" font-style="italic">
+    <tspan x="1014" dy="0">48 produits répartis dans 7 catégories ont été classés.</tspan>
+    <tspan x="1014" dy="24">Voyager 1000 arrive en tête avec 53 550 $.</tspan>
+  </text>
+
+  <text x="72" y="874" class="sans muted" font-size="15">Analyse du rendement des ventes  |  Étude de cas - Velora Cycles</text>
+  <text x="1528" y="874" text-anchor="end" class="sans muted" font-size="15">07</text>
+</svg>

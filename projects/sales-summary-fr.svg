@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Tableau de bord - sommaire du rendement des ventes</title>
+  <desc id="desc">Indicateurs des ventes 2022 et 2023, croissance annuelle, commandes annulées et graphiques comparatifs.</desc>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <style>
+    .sans{font-family:Arial,Helvetica,sans-serif}.serif{font-family:Georgia,'Times New Roman',serif}
+    .ink{fill:#24272c}.muted{fill:#60656d}.gold{fill:#c99122}.green{fill:#2f7d3f}.red{fill:#a63d3d}
+    .grid{stroke:#e3e5e8;stroke-width:2}.axis{stroke:#8b9097;stroke-width:2}
+  </style>
+
+  <rect x="72" y="50" width="26" height="26" class="gold"/>
+  <text x="126" y="71" class="sans gold" font-size="22" font-weight="700">RÉSULTAT</text>
+  <text x="80" y="147" class="serif ink" font-size="50" font-weight="700">Tableau de bord - sommaire</text>
+
+  <g class="sans">
+    <g transform="translate(72 204)">
+      <rect width="342" height="187" fill="#fff" stroke="#d7d9dc" stroke-width="2"/>
+      <rect x="315" y="20" width="14" height="14" class="gold"/>
+      <text x="45" y="82" class="serif ink" font-size="48" font-weight="700">330,5 k$</text>
+      <text x="45" y="135" class="ink" font-size="19" font-weight="700">Ventes totales T1, 2022</text>
+    </g>
+    <g transform="translate(432 204)">
+      <rect width="342" height="187" fill="#fff" stroke="#d7d9dc" stroke-width="2"/>
+      <rect x="315" y="20" width="14" height="14" class="gold"/>
+      <text x="45" y="82" class="serif ink" font-size="48" font-weight="700">453,8 k$</text>
+      <text x="45" y="135" class="ink" font-size="19" font-weight="700">Ventes totales T1, 2023</text>
+    </g>
+    <g transform="translate(792 204)">
+      <rect width="342" height="187" fill="#fff" stroke="#d7d9dc" stroke-width="2"/>
+      <rect x="315" y="20" width="14" height="14" class="green"/>
+      <text x="45" y="82" class="serif green" font-size="48" font-weight="700">+37,3 %</text>
+      <text x="45" y="135" class="ink" font-size="19" font-weight="700">Croissance annuelle</text>
+    </g>
+    <g transform="translate(1152 204)">
+      <rect width="342" height="187" fill="#fff" stroke="#d7d9dc" stroke-width="2"/>
+      <rect x="315" y="20" width="14" height="14" class="red"/>
+      <text x="45" y="82" class="serif red" font-size="48" font-weight="700">91,6 k$</text>
+      <text x="45" y="135" class="ink" font-size="19" font-weight="700">Commandes annulées</text>
+      <text x="45" y="166" class="muted" font-size="16">31 commandes sur 245 (12,7 %)</text>
+    </g>
+  </g>
+
+  <text x="405" y="454" text-anchor="middle" class="sans ink" font-size="23">Ventes totales T1 - 2022 et 2023</text>
+  <line x1="85" y1="786" x2="744" y2="786" class="axis"/>
+  <rect x="147" y="575" width="206" height="211" rx="2" fill="#24272c"/>
+  <rect x="475" y="496" width="206" height="290" rx="2" fill="#24272c"/>
+  <text x="250" y="598" text-anchor="middle" class="sans" font-size="18" fill="#fff">330 500 $</text>
+  <text x="578" y="519" text-anchor="middle" class="sans" font-size="18" fill="#fff">453 830 $</text>
+  <text x="250" y="818" text-anchor="middle" class="sans muted" font-size="19">2022</text>
+  <text x="578" y="818" text-anchor="middle" class="sans muted" font-size="19">2023</text>
+
+  <text x="1191" y="454" text-anchor="middle" class="sans ink" font-size="23">Ventes mensuelles par année</text>
+  <g class="sans muted" font-size="16" text-anchor="end">
+    <text x="859" y="748">0 k$</text><text x="859" y="681">50 k$</text><text x="859" y="614">100 k$</text>
+    <text x="859" y="547">150 k$</text><text x="859" y="480">200 k$</text>
+  </g>
+  <g>
+    <line x1="871" y1="744" x2="1510" y2="744" class="axis"/>
+    <line x1="871" y1="677" x2="1510" y2="677" class="grid"/>
+    <line x1="871" y1="610" x2="1510" y2="610" class="grid"/>
+    <line x1="871" y1="543" x2="1510" y2="543" class="grid"/>
+    <line x1="871" y1="476" x2="1510" y2="476" class="grid"/>
+    <rect x="890" y="608" width="86" height="136" fill="#b8bac0"/>
+    <rect x="976" y="550" width="86" height="194" fill="#ce9827"/>
+    <rect x="1106" y="591" width="86" height="153" fill="#b8bac0"/>
+    <rect x="1192" y="547" width="86" height="197" fill="#ce9827"/>
+    <rect x="1322" y="588" width="86" height="156" fill="#b8bac0"/>
+    <rect x="1408" y="518" width="86" height="226" fill="#ce9827"/>
+  </g>
+  <g class="sans muted" font-size="17" text-anchor="middle">
+    <text x="976" y="776">Janv.</text><text x="1192" y="776">Févr.</text><text x="1408" y="776">Mars</text>
+  </g>
+  <g class="sans muted" font-size="14">
+    <rect x="1088" y="807" width="12" height="12" rx="2" fill="#b8bac0"/><text x="1110" y="818">2022</text>
+    <rect x="1171" y="807" width="12" height="12" rx="2" fill="#ce9827"/><text x="1193" y="818">2023</text>
+  </g>
+
+  <text x="72" y="874" class="sans muted" font-size="15">Analyse du rendement des ventes  |  Étude de cas - Velora Cycles</text>
+  <text x="1528" y="874" text-anchor="end" class="sans muted" font-size="15">04</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Parcours d'adoption et valeur pour le client</title>
+  <desc id="desc">Étapes de l'achat au renouvellement et cinq risques liés à l'adoption client.</desc>
+  <rect width="1600" height="900" fill="#f5f8fb"/>
+  <style>
+    .sans{font-family:Arial,Helvetica,sans-serif}.navy{fill:#102c47}.blue{fill:#376d9f}
+    .muted{fill:#627083}.gold{fill:#efa532}.card{fill:#ffffff;stroke:#d8e1ea;stroke-width:2}
+  </style>
+
+  <text x="72" y="65" class="sans blue" font-size="21" font-weight="700">LE DÉFI DE L’ADOPTION CLIENT</text>
+  <text x="72" y="133" class="sans navy" font-size="46" font-weight="700">La valeur commence avec l’adoption</text>
+  <text x="72" y="177" class="sans muted" font-size="22" font-style="italic">
+    <tspan x="72" dy="0">L’achat d’une plateforme SaaS ne suffit pas. La valeur apparaît lorsque le client l’adopte</tspan>
+    <tspan x="72" dy="28">et atteint ses objectifs d’affaires.</tspan>
+  </text>
+  <text x="1528" y="63" text-anchor="end" class="sans muted" font-size="16">02 / 07</text>
+
+  <g class="sans" font-size="20" font-weight="700" text-anchor="middle">
+    <rect x="60" y="258" width="235" height="115" rx="9" class="navy"/>
+    <text x="178" y="307" fill="#fff"><tspan x="178" dy="0">Achat du</tspan><tspan x="178" dy="25">client</tspan></text>
+    <path d="M299 311h31v-9l15 14-15 14v-9h-31z" class="blue"/>
+
+    <rect x="344" y="258" width="235" height="115" rx="9" class="navy"/>
+    <text x="462" y="325" fill="#fff">Implantation</text>
+    <path d="M583 311h31v-9l15 14-15 14v-9h-31z" class="blue"/>
+
+    <rect x="628" y="258" width="235" height="115" rx="9" class="navy"/>
+    <text x="746" y="325" fill="#fff">Adoption</text>
+    <path d="M867 311h31v-9l15 14-15 14v-9h-31z" class="blue"/>
+
+    <rect x="912" y="258" width="235" height="115" rx="9" class="navy"/>
+    <text x="1030" y="307" fill="#fff"><tspan x="1030" dy="0">Valeur</tspan><tspan x="1030" dy="25">d’affaires</tspan></text>
+    <path d="M1151 311h31v-9l15 14-15 14v-9h-31z" class="blue"/>
+
+    <rect x="1197" y="258" width="235" height="115" rx="9" class="gold"/>
+    <text x="1315" y="307" class="navy"><tspan x="1315" dy="0">Renouvellement</tspan><tspan x="1315" dy="25">et croissance</tspan></text>
+  </g>
+
+  <text x="72" y="439" class="sans navy" font-size="27" font-weight="700">Où se trouvent les risques</text>
+
+  <g class="sans">
+    <rect x="60" y="462" width="666" height="75" rx="8" class="card"/>
+    <circle cx="101" cy="500" r="21" class="gold"/><text x="101" y="508" text-anchor="middle" class="navy" font-size="24" font-weight="700">!</text>
+    <text x="151" y="510" class="navy" font-size="20" font-weight="700">Faible adoption des fonctionnalités</text>
+
+    <rect x="798" y="462" width="666" height="75" rx="8" class="card"/>
+    <circle cx="839" cy="500" r="21" class="gold"/><text x="839" y="508" text-anchor="middle" class="navy" font-size="24" font-weight="700">!</text>
+    <text x="889" y="510" class="navy" font-size="20" font-weight="700">Utilisation limitée de la plateforme</text>
+
+    <rect x="60" y="553" width="666" height="75" rx="8" class="card"/>
+    <circle cx="101" cy="591" r="21" class="gold"/><text x="101" y="599" text-anchor="middle" class="navy" font-size="24" font-weight="700">!</text>
+    <text x="151" y="601" class="navy" font-size="20" font-weight="700">Faible engagement du client</text>
+
+    <rect x="798" y="553" width="666" height="75" rx="8" class="card"/>
+    <circle cx="839" cy="591" r="21" class="gold"/><text x="839" y="599" text-anchor="middle" class="navy" font-size="24" font-weight="700">!</text>
+    <text x="889" y="601" class="navy" font-size="20" font-weight="700">Besoins du client mal définis</text>
+
+    <rect x="60" y="644" width="666" height="75" rx="8" class="card"/>
+    <circle cx="101" cy="682" r="21" class="gold"/><text x="101" y="690" text-anchor="middle" class="navy" font-size="24" font-weight="700">!</text>
+    <text x="151" y="692" class="navy" font-size="20" font-weight="700">Risque de perte du client</text>
+  </g>
+
+  <text x="72" y="872" class="sans blue" font-size="16" font-weight="700">Adoption des fonctionnalités · Engagement client · Fidélisation client · Risque client</text>
+</svg>
